@@ -1,4 +1,5 @@
-#include<iostream.h>
+//FIFO
+#include<bits/stdc++.h>
 using namespace std;
 class que{
     stack<int> s1;
@@ -32,7 +33,7 @@ class que{
     }
     return false;
    }
-}
+};
 
 int main(){
     que q;
