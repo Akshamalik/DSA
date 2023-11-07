@@ -1,5 +1,5 @@
 //Pair Target Sum problem
-#include<iostrem.h>
+#include<iostrem>
 #include<climit>
 using namespace std;
 bool pairsum(int arr[n],int n,int k)

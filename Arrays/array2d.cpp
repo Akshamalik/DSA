@@ -1,7 +1,7 @@
-#include<iostream.h>
+#include<iostream>
 using namespace std;
 
-
+//array have element of same type
 int main()
 {
     int n,m;
