@@ -1,9 +1,9 @@
-// Online C++ compiler to run C++ program online
-// Queue is a data structure that stores data in FIFO fashion
-// Make an array.Add from the end of array and delete from end.
+// Queue is a data structure that stores data in FIFO fashion eg-ticket counter
+// Make an array.Add from one end of array and delete from one end.
 // Restricted with size of array.
 #include <iostream>
 using namespace std;
+
 #define n 20
 class queue
 {
@@ -15,7 +15,7 @@ public:
     queue()
     {
         arr = new int[n];
-        front = -1;
+        front = -1;  //at the start front and back initialize
         back = -1;
     }
     void push(int x)

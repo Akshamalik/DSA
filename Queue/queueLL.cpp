@@ -15,7 +15,7 @@ class queue{
     node* front ;
     node* back;
     public:
-    queue()
+    queue()  //constructor
     {
         front=NULL;
         back=NULL;

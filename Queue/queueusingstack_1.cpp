@@ -1,10 +1,8 @@
-//FIFO
+//queue using one stack 
 #include<bits/stdc++.h>
 using namespace std;
 class que{
     stack<int> s1;
-    stack<int> s2;
-
     public:
     //O(1)
     void push(int x){
@@ -12,28 +10,28 @@ class que{
     }
     //O(n)
     int pop(){
-        if(s1.empty() and s2.empty()){
+        if(s1.empty()){
             cout<<"queue is empty\n";
             return -1;
         }
-        if(s2.empty()){
-            while(!s1.empty()){
-                s2.push(s1.top());
-                s1.pop();
-            }
+        int x=s1.top();
+        s1.pop();
+        if(s1.empty())
+        {
+            return x;
         }
-        int topval=s2.top();
-        s2.pop();
-        return topval;
-
+        int item=pop();
+        s1.push(x);
+        return item;
    }
    bool empty(){
-    if(s1.empty() and s2.empty()){
+    if(s1.empty()){
         return true;
     }
     return false;
    }
 };
+
 
 int main(){
     que q;
