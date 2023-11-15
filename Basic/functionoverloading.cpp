@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//corrected
 int sum(int a,int b)
 {
     cout<<"using 2 arguments"<<endl;
@@ -14,6 +15,10 @@ int sum(int a,int b,int c)
 
 int main()
 {
-
+    cout<<"enter the three numbers";
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<sum(a,b)<<endl;
+    cout<<sum(a,b,c)<<endl;
     return 0;
 }

@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-
+//corrected
 int main()
 {
     int a,b,c;

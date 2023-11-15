@@ -1,6 +1,6 @@
 #include<iostream>
-suing namespace std;
-
+using namespace std;
+//corrected
 int main()
 {
     int n;
@@ -10,5 +10,5 @@ int main()
     {
         sum=sum+counter;
     }
-    cout<<counter;
+    cout<<sum;
 }

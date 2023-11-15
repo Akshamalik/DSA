@@ -7,7 +7,7 @@ using namespace std;
 // ***
 // ****
 // *****
-
+//correct
 int main()
 {
     int i,j;

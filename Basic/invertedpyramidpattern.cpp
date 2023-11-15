@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
-
+//correct
+// ****
+// ***
+// **
+// *
 int main()
 {
     int n;

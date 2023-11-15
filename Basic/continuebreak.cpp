@@ -1,20 +1,27 @@
 #include<iostream>
 using namespace std;
-
+//corrected
 int main()
 {
-    int pocketmoney=3000;
-    for(int date=1;date<=30;date++)
+    int pocketmoney = 3000;
+
+    for (int date = 1; date <= 30; date++)
     {
-        if(date%2==0)
+        if (date % 2 == 0)
         {
-            continue;
+            continue;  // Skip even-numbered dates
         }
-        if(pocketmoney==0)
+
+        if (pocketmoney == 0)
         {
-            break;
+            break;  // Stop going out if pocket money is exhausted
         }
-        cout<<"go out"<<endl;
-        pocketmoney=pocketmoney-300;
+
+        cout << "Go out on day " << date << endl;
+        pocketmoney -= 300;
     }
+
+    cout << "Remaining pocket money: " << pocketmoney << endl;
+
+    return 0;
 }

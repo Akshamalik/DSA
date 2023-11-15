@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
-
-
+//corrected
+//     *
+//    **
+//   ***
+// *****
 int main()
 {
     int n;

@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 //Greatest of three numbers
+//correct
 int main()
 {
     int a,b,c;

@@ -1,12 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
+//corrected
 int main()
-{int n;
+{
+    int n;
 
-    do{
-        cout<<n<<endl;
-        cin>>n;
-    }
-    while(n>0)
+    do
+    {
+        cout << n << endl;
+        cin >> n;
+    } while (n > 0)
 }
