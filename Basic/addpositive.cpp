@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-//corrected
 int main()
 {
     //it will add all positive numbers until negative number encountered and it exits
